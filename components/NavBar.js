@@ -9,7 +9,6 @@ const NavBar = () => {
               <div className="rounded-3xl bg-primarytext"></div>
               <a
                 href="https://www.nexteons.com/"
-                className="text-md text-black sm:text-lg"
               >
                <img src="Nexteonslogo.svg" alt="hero" className="rounded-full h-6 w-24" />
               </a>
@@ -20,7 +19,7 @@ const NavBar = () => {
             <div className="flex items-center inline-flex rounded-3xl pl-3 px-1 py-2 sm:py-4 sm:px-4">
               <div className="flex items-center border py-1  p-0.5 rounded-full px-2 gap-2 justify-center">
                 <div className="w-2 h-2 bg-green rounded-full"></div>
-                <h1>Contact Us</h1>
+                <h1 className="sm:text-lg">Contact Us</h1>
               </div>
             </div>
             <div className=" flex gap-2">
